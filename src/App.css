@@ -1,0 +1,36 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.arrows{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+  width: 170px;
+  text-align: center;
+}
+
+.arrows img{
+  cursor: pointer;
+}
+
+.arrows > .middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+table td{
+  border: 1px solid #aaa;
+  margin: 0;
+  padding: 10px 40px;
+}
+
+
+.selected{
+  background: chartreuse;
+}
